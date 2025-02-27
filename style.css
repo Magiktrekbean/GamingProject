@@ -1,0 +1,127 @@
+:root{--primary-color: #ff007b;
+    --secondary-color:#f6378f;
+    --container-bg-color:#ffebeb;
+    --footer-font-color: #b7b1b1;}
+ body {
+    background-color:var(--primary-color);
+ }
+ 
+ 
+ 
+ 
+ h1 {
+    text-align: center;
+    font-size: 40px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+ 
+ 
+ }
+ 
+ 
+ .container {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+ 
+ 
+    background-color: var(--container-bg-color);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+ }
+ 
+ 
+ p {
+    line-height: 2.5;
+    text-align: center;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }
+ 
+ 
+ .wiki {
+    text-align: center;
+    color:  var(--secondary-color) ;
+ text-decoration: none;
+    display: block;
+    margin: 0 auto;
+ }
+ 
+ 
+ footer {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }
+ img{transition: all 150ms ease-in-out;}
+ img:hover{transform: scale(1.2);}
+ a{text-decoration: none;
+    color:var(--secondary-color)}
+ 
+ 
+ a:hover{text-decoration: underline;
+ color: #ff5757;}
+ 
+ 
+ a:visited{color:var(--primary-color);}
+ 
+ 
+ .center {display: block;
+ margin: 0 auto;}
+ 
+ 
+ .theme-button{ background-color: var(--container-bg-color);
+    font-family: "Orbitron", serif;}
+ 
+ 
+ .wiki button{background-color: var(--primary-color);
+ color: var(--container-bg-color);}
+ 
+ 
+ body .theme-button:hover{background-color: black; 
+     color: whitesmoke;
+    }
+ 
+ 
+ .dark .theme-button{background-color:#475053;
+ color: whitesmoke;}
+ 
+ 
+ .dark .theme-button:hover {
+    background-color: #757a79;
+ }
+ 
+ 
+ .dark {background-color: black;}
+ 
+ 
+ .dark .container {background-color: #475053;
+ color: whitesmoke;}
+ 
+ 
+ .dark .container a{color:var(--footer-font-color);}
+ 
+ 
+ .dark .container footer {color: var(--footer-font-color);}
+ 
+ 
+ .dark button {background-color: black;
+ color: var(--footer-font-color);
+ padding: 10px 15px;}
+ 
+ 
+ .dark button:hover{ background-color: #757a79;}
